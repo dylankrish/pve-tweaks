@@ -3,4 +3,4 @@ Description=Update and Upgrade System
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/apt update && /usr/bin/apt full-upgrade -y
+ExecStart=/usr/bin/autoupdate
