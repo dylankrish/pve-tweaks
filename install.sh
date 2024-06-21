@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Install autoupdate.service
-
+cp ./autoupdate.service /etc/systemd/system/autoupdate.service
 # Install adblock.service
-
-# Install update-upgrade.timer
-
+cp ./adblock.service /etc/systemd/system/adblock.service
+# Install autoupdate.timer
+cp ./autoupdate.timer /etc/systemd/system/autoupdate.timer
 
 # Reload systemd daemon to recognize the new service and timer
 systemctl daemon-reload
