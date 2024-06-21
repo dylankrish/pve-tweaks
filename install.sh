@@ -7,6 +7,10 @@ cp ./adblock.service /etc/systemd/system/adblock.service
 # Install autoupdate.timer
 cp ./autoupdate.timer /etc/systemd/system/autoupdate.timer
 
+# Install scripts
+cp ./autoupdate.sh /usr/bin/autoupdate
+cp ./adblcok.sh /usr/bin/autoupdate
+
 # Reload systemd daemon to recognize the new service and timer
 systemctl daemon-reload
 
