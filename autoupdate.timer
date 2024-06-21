@@ -1,8 +1,8 @@
 [Unit]
-Description=Run update and upgrade monthly
+Description=Run update and upgrade daily at 3:00 AM
 
 [Timer]
-OnCalendar=monthly
+OnCalendar=*-*-* 3:00
 Persistent=true
 
 [Install]
