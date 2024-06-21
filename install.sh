@@ -13,7 +13,7 @@ install -m 744 adblock.sh /usr/bin/adblock
 systemctl daemon-reload
 
 # Enable and start the timer
-systemctl enable update-upgrade.timer
-systemctl start update-upgrade.timer
+systemctl enable autoupdate.timer
+systemctl start autoupdate.timer
 
 echo "Auto updates & adblock installed succesfully"
