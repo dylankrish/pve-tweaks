@@ -2,7 +2,6 @@
 
 # Install autoupdate.service
 install -m 644 autoupdate.service /etc/systemd/system/autoupdate.service
-install -m 644 adblock.service /etc/systemd/system/adblock.service
 install -m 644 autoupdate.timer /etc/systemd/system/autoupdate.timer
 
 # Install scripts

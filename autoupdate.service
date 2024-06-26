@@ -3,4 +3,4 @@ Description=Update and Upgrade System
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/autoupdate
+ExecStart=/usr/bin/autoupdate && /usr/bin/adblock
