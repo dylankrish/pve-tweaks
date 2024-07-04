@@ -1,7 +1,0 @@
-[Unit]
-Description=Block 
-After=update-upgrade.service
-
-[Service]
-Type=oneshot
-ExecStart=/usr/bin/adblock
